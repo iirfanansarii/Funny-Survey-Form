@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    background-color: #779DCA;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5%;
+}
+
+#description{
+    text-align: center;
+
+}
+
+
+#survey-form{
+    color: white;
+    width: 60%;
+    background-color: #272644;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+.details {
+    height: 50px;
+    width: 100%;
+}
+
+::placeholder{
+    font-weight: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 100%;
+   font-display: bold;
+   height: 50px;
+
+}
+p {
+    font-size: 1.125rem;
+}
+
+checkbox{
+    height: 50px;
+}
+
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+#button{
+    height: 50px;
+    color: #272644;
+    font-size: 100%;
+    width: 100%;
+}
+
+#feature{
+    height: 50px;
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+#situation{
+    height: 50px;
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+
+input[type="text"] {
+    font-size:20px;
+    color: #000000;
+    text-decoration-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
